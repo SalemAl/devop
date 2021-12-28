@@ -8,7 +8,7 @@ namespace Shopping.Client.Data
 {
     public static class ProductContext
     {
-        private static readonly IList<Product> Products = new List<Product>()
+        public static readonly IList<Product> Products = new List<Product>()
             {
                 new Product()
                 {
