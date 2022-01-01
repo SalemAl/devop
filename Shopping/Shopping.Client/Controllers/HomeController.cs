@@ -21,6 +21,8 @@ namespace Shopping.Client.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogInformation("Get all Products");
+
             return View(ProductContext.Products);
         }
 
